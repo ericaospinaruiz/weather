@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <style>
+      body {
+        padding: 0 10px;
+      }
+      h1 {
+        padding: 20px;
+        color: rgb(37, 102, 207);
+        font-size: 30px;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      p {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        text-align: center;
+      }
+      ul {
+        list-style: none;
+        text-align: center;
+        font-size: 18px;
+        padding: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      li {
+        padding: 20px;
+        margin: 10px 170px;
+      }
+
+      button {
+        padding: 20px;
+        background-color: #1962d8;
+        color: white;
+        border: 1px solid #1962d8;
+        border-radius: 30px;
+        margin: 20px;
+        transition: all 150ms ease-in-out;
+      }
+
+      li:hover {
+        background: #fffbf1;
+      }
+
+      button:hover {
+        color: #1962d8;
+        background-color: white;
+      }
+
+      .sun-emoji {
+        text-align: center;
+        font-size: 35px;
+      }
+      .high {
+        font-weight: bold;
+      }
+      .forecast {
+        font-weight: bold;
+      }
+      .temperature {
+        font-size: 15px;
+      }
+      .credit {
+        font-size: 15px;
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>
+      <div class="sun-emoji">🌤</div>
+      Currently 21° in Tokyo
+    </h1>
+    <p>
+      13° /
+      <span class="high">23°</span>
+    </p>
+    <ul>
+      <li>
+        <div class="forecast">🌧 Tomorrow</div>
+        <div class="temperature">
+          10° /
+          <span class="high"> 22°</span>
+        </div>
+      </li>
+      <li>
+        <div class="forecast">🌤 Saturday</div>
+        <div class="temperature">
+          15° /
+          <span class="high"> 17°</span>
+        </div>
+      </li>
+      <li>
+        <div class="forecast">☀️ Tomorrow</div>
+        <div class="temperature">
+          25° /
+          <span class="high"> 28°</span>
+        </div>
+      </li>
+      <button>Change City</button>
+      <div class="credit">Coded by Erica Ospina Ruiz</div>
+    </ul>
+  </body>
+</html>
